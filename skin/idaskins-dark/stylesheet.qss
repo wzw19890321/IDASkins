@@ -90,6 +90,12 @@ QScrollBar {
     margin: 0 0 0 0;
 }
 
+QScrollBar::horizontal {
+    min-height: 20px;
+    margin: 3px;
+    border-radius: 7px;
+}
+
 QScrollBar::sub-line, QScrollBar::add-line {
     width: 0;
     height: 0;
